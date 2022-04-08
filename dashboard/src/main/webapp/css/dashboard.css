@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+#top{
+	background-color : rgb(224, 224, 224, 0.13);
+}
+
+#top_contents{
+	display : flex;
+}
+
+#board{
+	margin-left : 26%;
+	width : 165px;
+}
+
+#weather{
+	width : 200px;
+}
+
+#time{
+	
+	width : 150px;
+}
+
+#board h1{
+	text-align : center;
+}
+
+#mapBoard{
+	position : absolute;
+	left : 34%;
+	margin-top : 1%;
+}
+
+#vmap{
+	width : 600px; 
+	height : 300px;
+}
+
+/* 그래프 */
+/* #graph{ */
+/* 	width : 380px;  */
+/* 	height : 300px; */
+/* 	margin-top : 1%; */
+/* } */
+
+#myChart{
+	width : 400px; 
+	height : 400px;
+}
+
+/* body */
+#boardBody{
+	background-color : rgb(224, 224, 224, 0.13);
+	width : 900px;
+	height : 600px;
+/* 	position : absolute; */
+	margin-left : 27%;
+	margin-top : 1%;
+	
+}
+
+/* 왼쪽 보드 */
+#leftBoard{
+	background-color : rgb(224, 224, 224, 0.13);
+	position : absolute;
+	left : 0%;
+	top : 10%;
+	width : 400px; 
+	height : 550px;
+	margin-top : 1%;
+}
+/* 오른쪽 보드 */
+#rightBoard{
+	background-color : rgb(224, 224, 224, 0.13);
+	position : absolute;
+	right : 0%;
+	top : 10%;
+	width : 400px; 
+	height : 300px;
+	margin-top : 1%;
+}
