@@ -9,5 +9,11 @@ import egovframework.rte.psl.dataaccess.mapper.Mapper;
 public interface BoardMapper {
 	
 	public List<HashMap<String, Object>> selectChart();
+	
+	public List<HashMap<String, Object>> selectList();
+	
+	public int count(HashMap<String, Object> param);
 
+	public List<HashMap<String, Object>> selectList(HashMap<String, Object> page);
+	
 }

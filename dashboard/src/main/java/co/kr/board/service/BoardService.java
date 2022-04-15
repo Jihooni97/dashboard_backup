@@ -6,5 +6,12 @@ import java.util.List;
 public interface BoardService {
 
 	public List<HashMap<String, Object>> selectChart();
+	
+	public List<HashMap<String, Object>> selectList();
+
+	public int count(HashMap<String, Object> param);
+
+	public List<HashMap<String, Object>> paging(int offset);
+
 
 }

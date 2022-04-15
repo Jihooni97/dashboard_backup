@@ -14,11 +14,11 @@
 }
 
 #weather{
-	width : 200px;
+	width : 130px;
 }
 
 #time{
-	
+	margin-top : 0.8%;
 	width : 150px;
 }
 
@@ -28,36 +28,43 @@
 
 #mapBoard{
 	position : absolute;
-	left : 34%;
+	left : 29%;
 	margin-top : 1%;
 }
 
 #vmap{
-	width : 600px; 
-	height : 300px;
+	width : 800px; 
+	height : 350px;
 }
 
 /* 그래프 */
-/* #graph{ */
-/* 	width : 380px;  */
-/* 	height : 300px; */
-/* 	margin-top : 1%; */
-/* } */
-
-#myChart{
-	width : 400px; 
-	height : 400px;
+#graph{
+	width : 360px; 
+	height : 220px;
+	background-color : rgb(224, 224, 224, 0.15);
+	margin-left : 5%;
+	margin-top : 2.5%;
+	
 }
 
 /* body */
 #boardBody{
 	background-color : rgb(224, 224, 224, 0.13);
 	width : 900px;
-	height : 600px;
+	height : 650px;
 /* 	position : absolute; */
-	margin-left : 27%;
-	margin-top : 1%;
+	margin-left : 26.5%;
+	margin-top : 1.5%;
 	
+}
+
+#pageBtn{
+	text-align : center;
+}
+
+#selectList{
+/* 	margin-top : 400px; */
+	padding-top : 44%;
 }
 
 /* 왼쪽 보드 */
@@ -67,8 +74,7 @@
 	left : 0%;
 	top : 10%;
 	width : 400px; 
-	height : 550px;
-	margin-top : 1%;
+	height : 650px;
 }
 /* 오른쪽 보드 */
 #rightBoard{
@@ -77,6 +83,12 @@
 	right : 0%;
 	top : 10%;
 	width : 400px; 
-	height : 300px;
-	margin-top : 1%;
+	height : 500px;
+}
+
+#select{
+	margin-left : 5%;
+	margin-top : 3%; 
+	width : 50%;
+	height : 10%;  
 }

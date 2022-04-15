@@ -20,4 +20,22 @@ public class BoardServiceImpl implements BoardService {
 		return boardMapper.selectChart();
 	}
 
+	@Override
+	public List<HashMap<String, Object>> selectList() {
+
+		return boardMapper.selectList();
+	}
+
+	@Override
+	public int count(HashMap<String, Object> param) {
+		return boardMapper.count(param);
+	}
+
+	@Override
+	public List<HashMap<String, Object>> paging(int offset) {
+		HashMap<String, Object>page = new HashMap<>();
+		page.put("offset", offset);
+		return boardMapper.selectList(page);
+	}
+
 }
